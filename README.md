@@ -6,23 +6,23 @@
 **  
 *******************************************************************************/  
   
-#Wireless Sensor Networks  
-#农业温室无线传感节点  
+# Wireless Sensor Networks  
+# 农业温室无线传感节点  
 
 以 TI CC2530 为控制节点，通过 IIC 与光照强度传感器（OPT3001）、光线强度传感器（BH1750）、温湿度传感器（SHT20）和二氧化碳传感器（S100）通信进行数据读取，并通过 ZigBee 协议发送至上位机。  
   
   
-#Software  
+# Software  
   IAR Embedded Workbench for 8051 Version 8.10.1  
   
-#Hardware  
+# Hardware  
   TI CC2530  
   TI OPT3001  
   ROHM BHT1750FVI  
   Sensirion SHT20  
   ELT S100  
   
-#Document Tree  
+# Document Tree  
 /  
 ├───main.c          main函数文件  
 ├───delay.h         延时函数头文件，定义部分类型缩写  
